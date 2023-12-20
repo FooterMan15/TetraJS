@@ -1,0 +1,29 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "MIT"
+
+[[mods]]
+modId = "tetrajs"
+version = "${version}"
+displayName = "TetraJS"
+description = '''
+This is a very cool mod that does... things.
+
+...and stuff.
+
+Have I reached 280 characters yet?
+'''
+
+[[dependencies.tetrajs]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tetrajs]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,)"
+ordering = "NONE"
+side = "BOTH"

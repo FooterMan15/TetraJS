@@ -1,0 +1,1 @@
+dev.footer.tetrajs.kjs.Plugin
